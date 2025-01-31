@@ -1,7 +1,7 @@
 from django.db import models
 from django.urls import reverse
 
-class Category:
+class Category(models.Model):
     name = models.CharField(max_length=30,
                             unique=True)
     slug = models.SlugField(max_length=30,
@@ -29,7 +29,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=10,
                                 decimal_places=2)
     available = models.BooleanField(default=True)
-    crated = models.DateTimeField(auto_now_add=True)
+    created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     discount = models.DecimalField(max_digits=4, default=0, decimal_places=2)
 
@@ -46,4 +46,10 @@ class Product(models.Model):
         return self.name
     
     def get_absolute_url(self):
-        return reverse('main:product_detail', args=[self.slug])
+        return reverse('main:product_detail',
+                        args=[self.slug])
+    
+    def sell_price(self):
+        if self.discount:
+            return round(self.price - (self.price * self.discount / 100), 2)
+        return self.price
