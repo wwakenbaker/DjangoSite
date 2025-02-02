@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-weight: 100;
+    font-weight: 500;
     font-style: normal;
     color: rgb(0, 0, 0);
 }
@@ -157,4 +157,42 @@ h5 {
     left: -0.5%;
     bottom: 37%;
     z-index: -1;
+}
+
+.detail-img {
+    width: 650px;
+    height: 650px;
+}
+
+.detail-product {
+    margin-top: 80px;
+}
+
+.detail-description {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.detail-description p {
+    margin-top: 30px;
+    max-width: 700px;
+}
+
+.detail-description h2 span {
+    font-size: 56px;
+}
+
+.cart-discount {
+    margin-top: -10px;
+    font-weight: 600px;
+}
+
+.cart-discount .price {
+    margin-top: -1px;
+}
+
+.line {
+    opacity: 0.7;
+    text-decoration: line-through;
+    font-weight: 300;
 }
