@@ -76,3 +76,8 @@ h5 {
     top: 0.5%;
     left: 44%;
 }
+
+.nav-logo {
+    max-height: 65px;
+    max-width: 100px;
+}
