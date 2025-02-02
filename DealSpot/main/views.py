@@ -3,7 +3,7 @@ from.models import Category, Product
 
 
 def popular_list(request):
-    products = Product.objects.filter(avaliable=True)[:3]
+    products = Product.objects.filter(available=True)[:3]
     return render(request,
                   'main/index/index.html',
                   {'products': products})
