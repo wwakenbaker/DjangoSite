@@ -31,8 +31,18 @@
             <div class="header-logo">
                 <a href="/"><img src="{% static 'img/dealspot-SHORT.png' %}" alt="" class="heavy-logo"></a>
             </div>
-            <div class="header-profile">
+            <div class="header-profile pt-2">
+                <a href="{% url "cart:cart_detail" %}"><img src="{% static 'img/cart.png' %}" alt="" class="cart_image"></a>
                 <a href="#" class="m-4">LOGIN</a>
+                <p class="cart_quantity">
+                    {% with cart_quantity=cart|length %}
+                        {% if cart_quantity > 0 %}
+                            {{ cart_quantity }}
+                        {% else %}
+                            0
+                        {% endif %}
+                    {% endwith %}
+                </p>
             </div>
         </div>
     </header>
