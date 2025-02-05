@@ -54,35 +54,35 @@ class Cart:
     def clear(self):
         del self.session[settings.CART_SESSION_ID]
 
-def get_total_price(self):
-    total = Decimal('0.00')
-    product_ids = self.cart.keys()
-    products = Product.objects.filter(id__in=product_ids)
-    cart = self.cart.copy()
-    
-    # Add product objects to cart items
-    for product in products:
-        cart[str(product.id)]['product'] = product
+    def get_total_price(self):
+        total = Decimal('0.00')
+        product_ids = self.cart.keys()
+        products = Product.objects.filter(id__in=product_ids)
+        cart = self.cart.copy()
+        
+        # Add product objects to cart items
+        for product in products:
+            cart[str(product.id)]['product'] = product
 
-    for item in cart.values():
-        try:
-            price = Decimal(item['price'])
-            quantity = item['quantity']
-            product = item.get('product')
-            
-            if product and hasattr(product, 'discount'):
-                discount = Decimal(product.discount) / Decimal('100')
-                price_after_discount = price - (price * discount)
-            else:
-                price_after_discount = price
-            
-            item_total = price_after_discount * quantity
-            total += item_total
-            
-            logger.debug(f"Item: price={price}, quantity={quantity}, total={item_total}, product={product}")
-        except KeyError as e:
-            logger.error(f"KeyError in cart item: {e}. Item data: {item}")
-        except Exception as e:
-            logger.error(f"Unexpected error processing cart item: {e}. Item data: {item}")
-    
-    return format(total, '.2f')
+        for item in cart.values():
+            try:
+                price = Decimal(item['price'])
+                quantity = item['quantity']
+                product = item.get('product')
+                
+                if product and hasattr(product, 'discount'):
+                    discount = Decimal(product.discount) / Decimal('100')
+                    price_after_discount = price - (price * discount)
+                else:
+                    price_after_discount = price
+                
+                item_total = price_after_discount * quantity
+                total += item_total
+                
+                logger.debug(f"Item: price={price}, quantity={quantity}, total={item_total}, product={product}")
+            except KeyError as e:
+                logger.error(f"KeyError in cart item: {e}. Item data: {item}")
+            except Exception as e:
+                logger.error(f"Unexpected error processing cart item: {e}. Item data: {item}")
+        
+        return format(total, '.2f')

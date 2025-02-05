@@ -9,9 +9,9 @@
             <h2>Shopping Cart</h2>
         </div>
         <div class="cart-cards">
-            {% for item in card %}
+            {% for item in cart %}
                 {% with product=item.product %}
-                    <div class="cart-cart d-flex">
+                    <div class="cart-card d-flex">
                         <div class="cart-card-img">
                             <img src="{% if product.image %}{{ product.image.url }}{% endif %}" alt="">
                         </div>
@@ -23,13 +23,13 @@
                                 <p>Quantity: {{ item.quantity }}</p>
                             </div>
                         </div>
-                        <form action="{% url "cart:cart remove" product.id %}" method="post">
+                        <form action="{% url "cart:cart_remove" product.id %}" method="post">
                             <input type="submit" value="Remove" class=remove-btn>
                             {% csrf_token %}
                         </form>
                         <div class="cart-card-price">
                             {% if product.discount %}
-                                <div class="card-discount d-flex gap-2">
+                                <div class="cart-discount d-flex gap-2">
                                     <p class="line">$ {{ product.price }}</p>
                                     <p class="price">$ {{ product.sell_price }}</p>
                                 </div>
@@ -45,7 +45,7 @@
             <h5>Total: $ {{ cart.get_total_price }}</h5>
         </div>
         <div class="cart-buttons d-flex gap-3">
-            <a href="/shop">Continue Shopping</a>
+            <a href="/shop" class="cart-btn">Continue Shopping</a>
             {% with cart_quantity=cart|length %}
                 {% if cart_quantity > 0 %}
                     <a href="#" class="cart-btn">Checkout</a>
