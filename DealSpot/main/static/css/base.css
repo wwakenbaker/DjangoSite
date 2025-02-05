@@ -129,6 +129,10 @@ h5 {
     height: 255px;
 }
 
+.card-discount {
+    margin-top: 10px
+}
+
 .price {
     font-size: 18px;
     font-weight: 500;
@@ -226,7 +230,7 @@ h5 {
 }
 
 .main {
-    margin-left: 150px;
+    margin-left: 55px;
 }
 
 .main-title {
@@ -249,6 +253,8 @@ h5 {
 
 .sidebar {
     margin-top: 70px;
+    height: 600px;
+    width: 230px;
     background-color: #ffffffb0;
     border: 1px solid rgba(3, 3, 3, 0.212);
     border-radius: 5px;
@@ -268,9 +274,11 @@ h5 {
 
 .sidebar ul li {
     font-size: 20px;
-    width: 165px;
-    height: 35px;
-    margin-bottom: 5px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(3, 3, 3, 0.212);
+    border-radius: 0;
+    width: auto;
+    height: auto;
 }
 
 .sidebar ul li a {
@@ -290,11 +298,11 @@ h5 {
 
 .pagination {
     display: flex;
-    position: absolute;
     bottom: 0%;
     left: 46%;
-    gap: 12px;
+    gap: 25px;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .disabled {
@@ -337,7 +345,7 @@ h5 {
 .cart-card {
     display: flex;
     gap: 15px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 600px;
     height: 200px;
@@ -348,6 +356,7 @@ h5 {
 }
 
 .cart-card-img img {
+    width: 128px;
     height: 155px;
     border: 1px solid rgba(3, 3, 3, 0.212);
     margin-left: 15px;
@@ -410,4 +419,20 @@ h5 {
 .add-to-cart-btn:hover {
     background-color: rgba(3, 3, 3, 0.212);
     border: 1px solid black;
+}
+
+.cart-card-price{
+    display: flex;
+    width: 150px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    margin: 0;
+}
+
+.cart-buttons {
+    margin-bottom: 25px;
 }

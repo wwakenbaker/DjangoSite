@@ -15,7 +15,7 @@ def cart_add(request, product_id):
         cart.add(product=product,
                  quantity=cd['quantity'],
                  override_quantity=cd['override'])
-    return redirect('cart:cart_detail')
+    return redirect('main:product_list')
 
 @require_POST
 def cart_remove(request, product_id):
