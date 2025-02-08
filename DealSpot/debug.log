@@ -2197,3 +2197,182 @@ Item: price=125.00, quantity=5, total=562.5000, product=Пиджак HENDERSON
 Item: price=55.00, quantity=2, total=99.0000, product=Жилет с воротником-шалька
 Item: price=125.00, quantity=3, total=375.0000, product=Костюмный пиджак
 Item: price=175.00, quantity=1, total=122.5000, product=Двубортный пиджак
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Importing BlpImagePlugin
+Importing BmpImagePlugin
+Importing BufrStubImagePlugin
+Importing CurImagePlugin
+Importing DcxImagePlugin
+Importing DdsImagePlugin
+Importing EpsImagePlugin
+Importing FitsImagePlugin
+Importing FliImagePlugin
+Importing FpxImagePlugin
+Image: failed to import FpxImagePlugin: No module named 'olefile'
+Importing FtexImagePlugin
+Importing GbrImagePlugin
+Importing GifImagePlugin
+Importing GribStubImagePlugin
+Importing Hdf5StubImagePlugin
+Importing IcnsImagePlugin
+Importing IcoImagePlugin
+Importing ImImagePlugin
+Importing ImtImagePlugin
+Importing IptcImagePlugin
+Importing JpegImagePlugin
+Importing Jpeg2KImagePlugin
+Importing McIdasImagePlugin
+Importing MicImagePlugin
+Image: failed to import MicImagePlugin: No module named 'olefile'
+Importing MpegImagePlugin
+Importing MpoImagePlugin
+Importing MspImagePlugin
+Importing PalmImagePlugin
+Importing PcdImagePlugin
+Importing PcxImagePlugin
+Importing PdfImagePlugin
+Importing PixarImagePlugin
+Importing PngImagePlugin
+Importing PpmImagePlugin
+Importing PsdImagePlugin
+Importing QoiImagePlugin
+Importing SgiImagePlugin
+Importing SpiderImagePlugin
+Importing SunImagePlugin
+Importing TgaImagePlugin
+Importing TiffImagePlugin
+Importing WebPImagePlugin
+Importing WmfImagePlugin
+Importing XbmImagePlugin
+Importing XpmImagePlugin
+Importing XVThumbImagePlugin
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Price: 125.00, Total Price: 125.00, Product: Пиджак HENDERSON
+Item: price=125.00, quantity=1, total=125.0000, product=Пиджак HENDERSON
+Price: 125.00, Total Price: 125.00, Product: Пиджак HENDERSON
+Item: price=125.00, quantity=1, total=125.0000, product=Пиджак HENDERSON
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/work/DjangoSite/DealSpot/DealSpot/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/users/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/work/DjangoSite/DealSpot/DealSpot/settings.py changed, reloading.
+Watching for file changes with StatReloader
